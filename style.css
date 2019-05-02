@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background: url(../images/beige-tiles.png);
+    font-size: 18px;
+    line-height: 150%;
+    margin: 0;
+  }
+  
+  header {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background-color: #ffff;
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+  }
+  
+  h1 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    line-height: 60px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    font: helvetica;
+    font-size: 26px;
+  }
+  
+  h2 {
+    color: #4aaaa5;
+    font-size: 23px; 
+    font: Serif;
+  }
+  
+  .name {
+    /* color: #ffffff;
+    background-color: #4aaaa5;
+    line-height: 30px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    font: helvetica; */
+  }
+  
+  .main-border {
+    width: 960px;
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border: 3px solid #dddddd;
+    margin-bottom: 300px;
+    margin-top: 30px;
+  }
+  
+  #main-bio {
+    width: 920px;
+    margin: 20px;
+    background-color: #ffffff;
+  }
+  
+  .navbar {
+    padding-top: 17px;
+    line-height: 8px;
+  }
+  
+  .container {
+    margin: 0 auto;
+    width: 960px;
+  }
+  
+  #bio-image {
+    height: 250px;
+    width: 190px;
+    margin: 20px;
+    float: left;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  li a:hover {
+    background-color: #dddd;
+  }
+  
+  .navitem {
+    border-right-style: solid;
+    border-right-color: #dddd;
+  }
+  
+  .footer {
+    background-color: #666666;
+    border-top: 4px solid #4aaaa5;
+    Height: 50px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 12px;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+  }
+  
+  /* #a, #b, #c, #d, #e, #f, #g { */
+.image {
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+  }
+  
+  .clearfix {
+    clear: both;
+  }
+  
+  #submit {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .absolute {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background: #4aaaa5;
+    margin-left: 20px;
+    margin-top: 110px;
+    text-align: center;
+    color: #ffffff;
+  }
