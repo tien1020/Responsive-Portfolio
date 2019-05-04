@@ -1,69 +1,70 @@
+
 * {
     box-sizing: border-box;
   }
   
+      
   body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-    background: url(../images/beige-tiles.png);
+    background: url(../Responsive-Portfolio/images/beige-tiles.png);
+   
     font-size: 18px;
     line-height: 150%;
     margin: 0;
+    /* background-color: pink; */
   }
+
   
   header {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     background-color: #ffff;
     width: 100%;
     border-bottom: 1px solid #cccccc;
+    
   }
   
   h1 {
     color: #ffffff;
     background-color: #4aaaa5;
-    line-height: 60px;
+    line-height: 70px;
     float: left;
     padding-left: 10px;
     padding-right: 10px;
     font: helvetica;
     font-size: 26px;
+    margin-bottom: 0;
   }
   
+
   h2 {
     color: #4aaaa5;
     font-size: 23px; 
     font: Serif;
+    border-bottom-color: #777777;
   }
-  
-  .name {
-    /* color: #ffffff;
-    background-color: #4aaaa5;
-    line-height: 30px;
-    float: left;
-    padding-left: 10px;
-    padding-right: 10px;
-    font: helvetica; */
-  }
+
   
   .main-border {
     width: 960px;
     background-color: #ffffff;
-    padding-top: 10px;
-    padding-bottom: 5px;
     border: 3px solid #dddddd;
     margin-bottom: 300px;
     margin-top: 30px;
+   
   }
   
   #main-bio {
-    width: 920px;
+    width: 900px;
     margin: 20px;
     background-color: #ffffff;
+    padding: 30px;
   }
   
-  .navbar {
+  .navbar-nav {
     padding-top: 17px;
     line-height: 8px;
+    background-color: #ffff;
   }
   
   .container {
@@ -77,51 +78,46 @@
     margin: 20px;
     float: left;
   }
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  
-  li {
+
+  .navbar {
     float: right;
-  }
-  
-  li a {
-    display: block;
     color: #777777;
-    text-align: center;
-    padding: 10px 12px;
-    text-decoration: none;
-    font-size: 15px;
+    
   }
+
+  .nav-link {
+    color: #777777;
+  }
+
   
+  .nav-item {
+    color: #777777;
+    border-right-style: solid;
+    border-right-color: #dddd;
+    background-color: #ffffff;
+  }
+
   li a:hover {
     background-color: #dddd;
   }
-  
-  .navitem {
-    border-right-style: solid;
-    border-right-color: #dddd;
-  }
-  
-  .footer {
+ 
+
+
+  .fixed-bottom {
     background-color: #666666;
     border-top: 4px solid #4aaaa5;
     Height: 50px;
-    width: 100%;
+    /* width: 100%; */
     color: white;
     text-align: center;
     padding-top: 20px;
     font-size: 12px;
-    clear: both;
+    /* clear: both;
     position: fixed;
-    bottom: 0;
+    bottom: 0; */
   }
   
-  /* #a, #b, #c, #d, #e, #f, #g { */
+  
 .image {
     width: 200px;
     height: 150px;
@@ -150,4 +146,97 @@
     margin-top: 110px;
     text-align: center;
     color: #ffffff;
+  }
+  input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+  }
+
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    width: 200px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    
+  }
+
+  /* .rowImage {
+    position: relative;
+  } */
+
+  @media screen and (max-width: 980px) {
+    body {
+      background: yellow;
+    }
+  
+    .container {
+       
+      width: 100%;
+      padding: 20px;
+    }
+  
+    #main-bio {
+      width: 100%;
+    }
+    .main-border {
+      width: 100%;
+    }
+  
+    header {
+      margin-top: 40px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    body {
+      background: blue;
+    }
+  
+    .container {
+       
+      width: 100%;
+      padding: 20px;
+    }
+  
+    #main-bio
+   {
+      width: 100%;
+    }
+  .main-border{
+    width: 100%;
+  }
+    header {
+      margin-top: 40px;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    body {
+      background: pink;
+    }
+  
+    .container {
+       
+      width: 100%;
+      padding: 20px;
+    }
+  
+    #main-bio {
+      width: 100%;
+    }
+    .main-border {
+      width: 100%;
+    }
+  
+    header {
+      margin-top: 40px;
+    }
   }
